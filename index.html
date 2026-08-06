@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Hackanur — indie makers co-working every Thursday in Sanur, Bali</title>
+<title>Hackanur: indie makers co-working every Thursday in Sanur, Bali</title>
 <meta name="description" content="Hackanur is a community-run group of indie makers, coders, designers and hardware hackers who build their own independent apps and startups. We co-work every Thursday in Sanur, Bali. Part of the HACKA* NETWORK.">
 <meta name="color-scheme" content="dark">
 <meta name="theme-color" content="#0e0d0a">
@@ -142,8 +142,8 @@
   <h2>Thursdays</h2>
   <dl>
     <dt>9:00am</dt><dd>Arrive</dd>
-    <dt>9:30am</dt><dd>Intros — a little about yourself and what you&rsquo;re working on</dd>
-    <dt>Noon</dt><dd>Demos — share what you made today, or just watch</dd>
+    <dt>9:30am</dt><dd>Intros. A little about yourself and what you&rsquo;re working on</dd>
+    <dt>Noon</dt><dd>Demos. Share what you made today, or just watch</dd>
   </dl>
   <p class="note">Schedule subject to change. Sign up below and we&rsquo;ll send you the details.</p>
 
@@ -160,15 +160,15 @@
       <input id="f-email" name="entry.311749292" type="email" autocomplete="email" placeholder="you@example.com">
     </div>
     <div class="field">
-      <label for="f-profile">Profile <span class="hint">— your X/Twitter or LinkedIn</span></label>
+      <label for="f-profile">Profile <span class="hint">(X/Twitter or LinkedIn)</span></label>
       <input id="f-profile" name="entry.163798842" type="text" placeholder="https://x.com/…">
     </div>
     <div class="field">
-      <label for="f-website">Website <span class="hint">— personal or product</span></label>
+      <label for="f-website">Website <span class="hint">(personal or product)</span></label>
       <input id="f-website" name="entry.1588822203" type="text" placeholder="https://…">
     </div>
     <div class="field">
-      <label for="f-project">Project <span class="hint">— what you&rsquo;re building</span></label>
+      <label for="f-project">Project <span class="hint">(what you&rsquo;re building)</span></label>
       <input id="f-project" name="entry.230585844" type="text" placeholder="A one-liner is fine">
     </div>
     <button type="submit">Count me in</button>
@@ -203,12 +203,12 @@
 
       if (!name || !email) {
         e.preventDefault();
-        status.textContent = 'Name and email, at least — so we know who to write to.';
+        status.textContent = 'Name and email, at least, so we know who to write to.';
         (name ? form.elements['entry.311749292'] : form.elements['entry.1800337986']).focus();
         return;
       }
 
-      // Let the native POST go to the hidden iframe; Google's cross-origin
+      // Let the native POST go to the hidden iframe. Google's cross-origin
       // response is unreadable either way, so swap to the thank-you state.
       button.disabled = true;
       status.textContent = 'Sending…';
